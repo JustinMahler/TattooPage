@@ -120,7 +120,7 @@ img {
 h1,a,h3{ color: white;}
 h2{ color: black;}
 body{
-	 background-image: url(OIP.jpg);
+	 background-color: pink;
 	 background-repeat: no-repeat;
 	 background-position: 0px -200px;
 	 background-attachment: fixed;
