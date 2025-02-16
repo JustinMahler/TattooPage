@@ -111,15 +111,6 @@ img {
 .container3{ 
 }	
 }
-.cards{
-	height: 465px;
-	width: 100%;
-	background-size: cover;
-	background-image: url(background.jpg);
-	border-bottom: 3px solid  #D69494;
-	box-shadow: 0 15px 15px 0 rgba(0,0,0,0.2);
-}
-
 *{
 	margin: 0;
 	padding: 0;
@@ -210,4 +201,12 @@ body{
 	padding: 50px 0px;
 	border-top: 3px solid #D69494;
 	box-shadow: 0 -15px 8px 0 rgba(0,0,0,0.2);
+}
+.cards{
+	height: 465px;
+	width: 100%;
+	background-size: cover;
+	background-image: url(background.jpg);
+	border-bottom: 3px solid  #D69494;
+	box-shadow: 0 15px 15px 0 rgba(0,0,0,0.2);
 }
