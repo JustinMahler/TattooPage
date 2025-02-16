@@ -212,9 +212,9 @@ body{
 }
 @media only screen and (max-width: 768px){
 .logo_container{
-	width: 100%;
+	width: 50%;
 }
 .navigation a li{
-	width: 100%;
+	width: 50%;
 }
 	
