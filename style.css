@@ -210,11 +210,3 @@ body{
 	border-bottom: 3px solid  #D69494;
 	box-shadow: 0 15px 15px 0 rgba(0,0,0,0.2);
 }
-@media only screen and (max-width: 768px){
-.logo_container{
-	width: 90%;
-}
-.navigation a{
-	width: 90%;
-}
-	
