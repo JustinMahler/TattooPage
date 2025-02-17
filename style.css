@@ -42,7 +42,7 @@
 	background-size: cover;
 	background-position: center;
 	text-align: center;
-	text-shadow: 1px 1px 4px #000000;
+	text-shadow: 2px 2px 4px #000000;
 	height: 350px;
 	margin: 55px;
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -130,6 +130,16 @@ img {
 }
 .navigation a:hover{
 	box-shadow: 0 8px 24px 0 rgba(0,0,0,0.2);
+}
+.logo_container a{	
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 32px;
+	font-weight: 100;
+}
+.logo_container a:hover{
+	box-shadow: 0 8px 24px 0 rgba(0,0,0,0.2);
 }	
 }
 *{
@@ -179,18 +189,6 @@ body{
 	font-size: 32px;
 	font-weight: 100;
 }
-.logo_container a{	
-	height: 100%;
-	display: table-cell;
-	vertical-align: middle;
-	font-size: 32px;
-	font-weight: 100;
-}
-.logo_container a:hover{
-	box-shadow: 0 8px 24px 0 rgba(0,0,0,0.2);
-}
-
-
 .cut-out{
 	height: 500px;
 	width: 100%;
