@@ -55,7 +55,6 @@ nav li:first-child{
     justify-content: center;
     align-items: center;
     height: 100%;
-	margin: 20px;
 }
 .FormContent{
 	position: center;
@@ -72,20 +71,15 @@ nav li:first-child{
 	display: flex;
 	justify-content: center;
 	padding: 20px;
-	margin: 20px;
 }
 form{
 	margin: auto;
-}
-.portfoliowhole{
-	margin: 20px;
 }
 .layout-container{
 	width: min(1000px, 100%);
 	margin: 0 auto;
 	columns: 3 300px;
 	column-gap: 1em;
-	padding: 20px;
 }
 img{
 	display:block;
