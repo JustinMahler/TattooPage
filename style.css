@@ -19,8 +19,9 @@ body{
 	 min-height: 100vh;
 	 }
 nav{
-		background-color: #D69494;
-		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: #D69494;
+	box-shadow: 0 10px 10px 0 rgba(0,0,0,0.2);
+	z-index: 1;
 }
 nav ul{
 	width: 100%;
@@ -28,6 +29,7 @@ nav ul{
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
+	z-index: 2;
 }
 nav li{
 	height: 50px;
@@ -176,6 +178,11 @@ nav li:first-child{
 	.hideOnMobile{
 		display: none;
 	}
+}
+@media(max-width: 400px){
+	.sidebar{
+		width: 100%;
+}
 }
 @media only screen and (min-width: 800px){
 .welcome_section{
