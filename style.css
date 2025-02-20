@@ -51,15 +51,13 @@ nav li:first-child{
 }
 .BookingForm{
 	height: 500px;
-	position: relative;
-	border: 3px #D69494;
+	position: flex;
+	border-color: #D69494;
+	background-color: white;
+	align-content: center;
 }
-.content{
-	margin: 0;
-	position: absolute;
-	top: 50%;
-	-ms-transform: translateY(-50%);
-	transform: translateY(-50%);
+.FormContent{
+	align-items: center;
 }
 .header{
 	width: 100%;
