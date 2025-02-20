@@ -55,6 +55,7 @@ nav li:first-child{
 	border-style: solid;
 	border-color:  #D69494;
 	align-content: center;
+	height: 700px;
 }
 .header{
 	width: 100%;
