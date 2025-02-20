@@ -50,18 +50,16 @@ nav li:first-child{
 	margin-right: auto;
 }
 .BookingForm{
-	margin: 75px;
-	width: 80%;
-	background-color: white;
-	border-style: solid;
-	border-color:  #D69494;
-	align-content: center;
-	height: 700px;
-	align-text: center;
-	padding: 75px;
-	align-items: center;
-	display: flex;
-	justify-content: center;
+	height: 500px;
+	position: relative;
+	border: 3px #D69494;
+}
+.content{
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
 }
 .header{
 	width: 100%;
