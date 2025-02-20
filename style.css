@@ -58,6 +58,9 @@ nav li:first-child{
 	align-content: center;
 	height: 700px;
 	align-text: center;
+	padding: 75px;
+	align-items: center;
+	display: flex;
 }
 .header{
 	width: 100%;
