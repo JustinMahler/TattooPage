@@ -24,39 +24,54 @@
 		</ul>
 		<div class="BookingForm">
 			<div class="FormContent">
-				<form action="/action_page.php">
-					<label for="fname">First Name:</label><br>
-					<input type="text" id="fname" name="fname">
+				<form action="https://api.web3forms.com/submit" method="POST" class="BookingInquery">
+					<div class="booking-title">
+						<h2>Reach out to book an appointment</h2>
+						<hr>
+					</div>
+					<input type="hidden" name="access_key" value="683c75f1-5d58-4e85-a94c-5f052041e0c8">
+					<label for="Name">Full Name:</label><br>
+					<input type="text" id="Name" name="Name" placeholder="Your Name" class="contact-inputs" required>
 					<br><br>
-					<label for="fname">Preferred Pronouns:</label><br>
-					<input type="text" id="fname" name="fname">
+					<label for="pronoun">Preferred Pronouns:</label><br>
+					<input type="text" id="pronoun" name="pronoun" placeholder="Your Pronouns" class="contact-inputs" required>
 					<br><br>
-					<label for="fname">Phone Number:</label><br>
-					<input type="text" id="fname" name="fname">
+					<label for="Phone">Phone Number:</label><br>
+					<input type="tel" id="Phone" name="Phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" class="contact-inputs" required>
 					<br><br>
-					<label for="fname">Email:</label><br>
-					<input type="text" id="fname" name="fname">
+					<label for="Email">Email:</label><br>
+					<input type="email" id="Email" name="Email" placeholder="Your Email" class="contact-inputs" required>
 					<br><br>
-					<label for="fname">Preferred Dates - We cannot guarantee availability:</label><br>
-					<input type="text" id="fname" name="fname">
+					<label for="Dates">Preferred Dates - We cannot guarantee availability:</label><br>
+					<input type="text" id="Dates" name="Dates" placeholder="Your Preferred Dates" class="contact-inputs" required>
 					<br><br>
-					<label for="fname">Tattoo Idea:</label><br>
-					<input type="text" id="fname" name="fname">
+					<label for="Idea">Tattoo Idea:</label><br>
+					<input type="text" id="Idea" name="Idea" placeholder="Describe Your Tattoo Idea" class="contact-inputs" required>
 					<br><br>
-					<label for="fname">Is This A Cover Up?:</label><br>
-					<input type="text" id="fname" name="fname">
+					<p>Is this a cover up?:</p>
+					<label for="coverup">Yes:</label>
+					<input type="radio" id="coverupy" name="coverup" value="yes" class="contact-inputs" required>
+					<label for="coverup">No:</label>
+					<input type="radio" id="coverupn" name="coverup" value="No" class="contact-inputs" required>					
 					<br><br>
-					<label for="fname">Placement Area:</label><br>
-					<input type="text" id="fname" name="fname">
+					<label for=""Placement">Placement Area:</label><br>
+					<input type="text" id="Placement" name="Placement" placeholder="Tattoo Placement" class="contact-inputs" required>
 					<br><br>
-					<label for="fname">Size in inches - Width and Height:</label><br>
-					<input type="text" id="fname" name="fname">
+					<p>Size in inches - Height and Width:</p>
+					<label for="Height">Height</label><br>
+					<input type="number" id="Height" name="Height" placeholder="Height" min="0" class="contact-inputs" required><br>
+					<label for="Width">Width</label><br>
+					<input type="number" id="Width" name="Width" placeholder="Width" min="0" class="contact-inputs" required>
 					<br><br>
-					<label for="fname">Black and Gray/Color?:</label><br>
-					<input type="text" id="fname" name="fname">
-					<br><br>
-					<label for="fname">Additional Notes:</label><br>
-					<input type="text" id="fname" name="fname">
+					<label for="Style">Black and Gray or Color?</label><br>
+						<select id="Style" class="contact-inputs">
+							<option value="black-and-gray">Black And Gray</option>
+							<option value="color">Color</option>
+						</select><br><br>
+					<label for="Notes">Additional Notes:</label><br>
+					<textarea id="Notes" maxlength="160" name="Notes" placeholder="Additional Notes" class="contact-inputs"></textarea><br><br>
+					<input type="reset"><br>
+					<input type="submit">
 				</form>
 			</div>
 		</div>
