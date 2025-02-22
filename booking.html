@@ -68,16 +68,17 @@
 							<option value="black-and-gray"><p>Black And Gray</p></option>
 							<option value="color"><p>Color</p></option>
 						</select><br><br>
-					<label for="reference"><p>Reference Photo:</p></label>
-					<input type="file" id="reference" accept="image/*" name="reference" class="contact-inputs"><br><br>
 					<label for="Notes"><p>Additional Notes:</p></label>
-					<textarea id="Notes" maxlength="160" name="Notes" placeholder="" class="contact-inputs3"></textarea><br><br>
+					<textarea id="Notes" maxlength="160" name="Notes" placeholder="" class="contact-inputs3"></textarea><br>
+					<p>Please email any reference photos to:</p><br><br>
 					<input type="submit"><br><br>
 					<input type="reset">
 				</form>
 			</div>
 		</div>
-	<script>
+		<div class="footer">
+		</div>
+		<script>
 				function showsidebar(){
 			const sidebar = document.querySelector('.sidebar')
 			sidebar.style.display = 'flex'
@@ -86,6 +87,6 @@
 			const sidebar = document.querySelector('.sidebar')
 			sidebar.style.display = 'none'
 }
-	</script>
+		</script>
 	</body>
 </html>
