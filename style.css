@@ -172,11 +172,60 @@ img{
 	display: flex;
 	justify-content: flex-left;
 }
-.card1 a{
-	left:;
+.card1 a,.card2 a,.card3 a{
 	font-size: 32px;
 	text-decoration-line: underline;
 	width: 100%;
+}
+.booking-title h2{
+	font-weight: 500;
+	color: white;
+	font-size: 32px;
+	text-shadow: 2px 2px 4px #000000;
+	margin-bottom: 5px;
+}
+.booking-title hr{
+	border: none;
+	width: 100%;
+	height: 5px;
+	background-color: #D69494;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+.contact-inputs{
+	width: 300px;
+	height: 30px;
+	border: 2px solid #D69494;
+	outline: none;
+	font-weight: 500;
+	color: #666;
+	border-radius: 50px;
+}
+.contact-inputs2{
+	width: 20px;
+	height: 20px;
+	border: 2px solid #D69494;
+	outline: none;
+	font-weight: 500;
+	border-radius: 50px;
+}
+.contact-inputs3{
+	width: 300px;
+	height: 120px;
+	border: 2px solid #D69494;
+	outline: none;
+	font-weight: 500;
+	color: #D69494;
+	border-radius: 20px;
+}
+.contact-inputs:hover{
+	border: 3px solid #D69494;
+}
+.contact-inputs2:hover{
+	border: 3px solid #D69494;
+}
+.contact-inputs3:hover{
+	border: 3px solid #D69494;
 }
 @media(max-width: 800px){
 	.hideOnMobile{
@@ -239,7 +288,7 @@ img{
 .card1{
 	border-style: solid;
 	border-color: white;	
-	background-image: url(booking.JPG);
+	background-image: url(IMG_7377.jpg);
 	background-size: cover;
 	background-position: center;
 	text-align: center;
@@ -259,8 +308,6 @@ img{
 img {
 	border-radius: 5px 5px 0 0;
 }
-.container1{ 
-	}
 .card2{
 	border-style: solid;
 	border-color: white;
@@ -277,9 +324,6 @@ img {
 	border-radius: 5px;
 	padding: 0px 0px;
 	align-content: center;
-	text-decoration-line: underline;
-	text-decoration-color: white;
-	font-size: 32px;
 }
 .card2:hover{
 	box-shadow: 0 8px 24px 0 rgba(0,0,0,0.2);
@@ -287,12 +331,10 @@ img {
 img {
 	border-radius: 5px 5px 0 0;
 }
-.container2{
-}
 .card3{
 	border-style: solid;
 	border-color: white;
-	background-image: url(socials.JPG);
+	background-image: url(IMG_7378.jpg);
 	background-size: cover;
 	background-position: center;
 	text-align: center;
@@ -305,15 +347,9 @@ img {
 	border-radius: 5px;
 	padding: 0px 0px;
 	align-content: center;
-	font-size: 32px;
-	text-decoration-line: underline;
-	text-decoration-color: white;
 }
 .card3:hover{
 	box-shadow: 0 8px 24px 0 rgba(0,0,0,0.2);
-}
-.container3{ 
-}	
 }
 @media(max-width: 400px){
 	.sidebar{
@@ -365,7 +401,7 @@ img {
 .card1{
 	border-style: solid;
 	border-color: white;	
-	background-image: url(booking.JPG);
+	background-image: url(IMG_7377.jpg);
 	background-size: cover;
 	background-position: center;
 	text-align: center;
@@ -422,7 +458,7 @@ img {
 .card3{
 	border-style: solid;
 	border-color: white;
-	background-image: url(socials.JPG);
+	background-image: url(IMG_7378.jpg);
 	background-size: cover;
 	background-position: center;
 	text-align: center;
