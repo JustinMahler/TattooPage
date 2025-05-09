@@ -144,23 +144,8 @@ img{
 	display: none;
 }
 .cut-out{
+	height: 400px;
 	width: 100%;
-	background-image: url(collage.jpg.JPG);
-	position: relative;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 100%;
-	transform-style: preserve-3d;
-	z-index:-1;
-	top: -50;
-}
-.parallax{
-	position: absolute;
-	width: 100%;
-	object-fit: cover;
-	transform: translateZ(-15px) scale(2);
-	top: 6%;
 }
 .sidebar a:hover{
 	box-shadow: 0 8px 24px 0 rgba(0,0,0,0.2);
@@ -368,6 +353,32 @@ img {
 }
 .contact-inputs3:hover{
 	border: 3px solid #D69494;
+}
+.wrapper{
+	width: 100vw;
+	height: 100vh;
+	overflow-y: auto;
+	overflow-x: hidden;
+	perspective: 15px;	
+}
+.cut-out{
+	width: 100%;
+	background-image: url(collage.jpg.JPG);
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	transform-style: preserve-3d;
+	z-index:-1;
+	top: -50;
+}
+.parallax{
+	position: absolute;
+	width: 100%;
+	object-fit: cover;
+	transform: translateZ(-15px) scale(2);
+	top: 6%;
 }
 @media(max-width: 800px){
 	.hideOnMobile{
