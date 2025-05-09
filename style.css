@@ -376,8 +376,8 @@ img {
 	position: absolute;
 	width: 100%;
 	object-fit: cover;
-	transform: translateZ(-15px) scale(2);
-	top: 10%;
+	transform: translateZ(-30px) scale(2);
+	top: 6%;
 }
 @media(max-width: 800px){
 	.hideOnMobile{
