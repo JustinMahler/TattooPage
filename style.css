@@ -363,7 +363,6 @@ img {
 }
 .cut-out{
 	width: 100%;
-	background-image: url(collage.jpg.JPG);
 	position: relative;
 	display: flex;
 	justify-content: center;
