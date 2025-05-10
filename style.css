@@ -385,6 +385,9 @@ img {
 	.menu-button{
 		display: block;
 	}
+.cut-out{
+	height: 60px;
+}
 .cards{
 	height: 100%;
 	width: 100%;
